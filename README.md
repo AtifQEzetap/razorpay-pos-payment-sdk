@@ -1349,6 +1349,14 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 Our SDK is compatible with Kotlin support as well. So no need to worry if you are using kotlin for development.
 
+## Flutter
+
+https://github.com/AtifQEzetap/razorpay-pos-payment-flutter-sdk
+
+## React Native
+
+https://github.com/AtifQEzetap/razorpay-pos-payment-react-native-sdk
+
 
 ## Support
 
