@@ -156,6 +156,39 @@ op.setAppData(new Hashtable<String, Object>());
 op.setAddlData(new Hashtable<String, Object>());
 op.setLabels(listOfString);
 
+Customer cus = new Customer();
+cus.setName("abc");
+cus.setEmail("");
+cus.setMobileNo("");
+
+References ref = new References();
+ref.setReference1("abc");
+ref.setReference2("");
+ref.setReference3("");
+ref.setReference4("");
+ref.setReference5("");
+ref.setReference6("");
+ref.setReference7("");
+
+ProductDetails pd = new ProductDetails();
+pd.setSKUCode("");
+pd.setBrand("");
+pd.setSerial("");
+
+UPIRequest upi = new UPIRequest();
+upi.setPayerVPA("");
+upi.setPayerName("");
+
+Gst gst = new Gst();
+gst.setMerchantInvoiceNo("");
+gst.setGstAmount(1.0);
+gst.setSgstAmount(1.0);
+gst.setCgstAmount(1.0);
+gst.setIgstAmount(1.0);
+gst.setCessAmount(1.0);
+gst.setGstIncentiveAmount(1.0);
+gst.setMerchantInvoiceDate("");
+
 
 ```
 </details>
@@ -196,6 +229,40 @@ op.amountCashback = 10.0
 op.appData = Hashtable<String, Any>()
 op.addlData = Hashtable<String, Any>()
 op.labels = listOfString
+
+val cus = Customer()
+cus.name = "abc"
+cus.email = ""
+cus.mobileNo = ""
+
+val ref = References()
+ref.reference1 = "abc"
+ref.reference2 = ""
+ref.reference3 = ""
+ref.reference4 = ""
+ref.reference5 = ""
+ref.reference6 = ""
+ref.reference7 = ""
+
+val pd = ProductDetails()
+pd.SKUCode = ""
+pd.brand = ""
+pd.serial = ""
+
+val upi = UPIRequest()
+upi.payerVPA = ""
+upi.payerName = ""
+
+val gst = Gst()
+gst.merchantInvoiceNo = ""
+gst.gstAmount = 1.0
+gst.sgstAmount = 1.0
+gst.cgstAmount = 1.0
+gst.igstAmount = 1.0
+gst.cessAmount = 1.0
+gst.gstIncentiveAmount = 1.0
+gst.merchantInvoiceDate = ""
+
 
 ```
 </details>
