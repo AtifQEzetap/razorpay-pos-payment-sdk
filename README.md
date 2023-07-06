@@ -26,7 +26,7 @@ Add dependency in app-level build.gradle
 
 ```gradle
 dependencies {
-	implementation 'com.github.AtifQEzetap:razorpay-pos-payment-sdk:2.2'
+	implementation 'com.github.AtifQEzetap:razorpay-pos-payment-sdk_:1.0'
 }
 	
 ```
